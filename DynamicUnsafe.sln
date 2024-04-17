@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dynamic", "Dynamic\Dynamic.csproj", "{8AF2BFBF-3369-42D5-A514-4564DDCCF36C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinqpadExamples", "LinqpadExamples", "{628FF9B9-E4F4-4DF9-BCF9-0D56118AF5B4}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Elena\OneDrive\Documents\LINQPad Queries\dyn_basic.linq = C:\Users\Elena\OneDrive\Documents\LINQPad Queries\dyn_basic.linq
+		C:\Users\Elena\OneDrive\Documents\LINQPad Queries\expando.linq = C:\Users\Elena\OneDrive\Documents\LINQPad Queries\expando.linq
+		C:\Users\Elena\OneDrive\Documents\LINQPad Queries\expando_tree.linq = C:\Users\Elena\OneDrive\Documents\LINQPad Queries\expando_tree.linq
+		C:\Users\Elena\OneDrive\Documents\LINQPad Queries\IntPtr.linq = C:\Users\Elena\OneDrive\Documents\LINQPad Queries\IntPtr.linq
+		C:\Users\Elena\OneDrive\Documents\LINQPad Queries\pointer.linq = C:\Users\Elena\OneDrive\Documents\LINQPad Queries\pointer.linq
+		C:\Users\Elena\OneDrive\Documents\LINQPad Queries\pointer_date.linq = C:\Users\Elena\OneDrive\Documents\LINQPad Queries\pointer_date.linq
+		C:\Users\Elena\OneDrive\Documents\LINQPad Queries\pointer_fixed.linq = C:\Users\Elena\OneDrive\Documents\LINQPad Queries\pointer_fixed.linq
+		C:\Users\Elena\OneDrive\Documents\LINQPad Queries\pointer_start.linq = C:\Users\Elena\OneDrive\Documents\LINQPad Queries\pointer_start.linq
+		C:\Users\Elena\OneDrive\Documents\LINQPad Queries\pointer_swap.linq = C:\Users\Elena\OneDrive\Documents\LINQPad Queries\pointer_swap.linq
+		C:\Users\Elena\OneDrive\Documents\LINQPad Queries\pointer_word.linq = C:\Users\Elena\OneDrive\Documents\LINQPad Queries\pointer_word.linq
+		C:\Users\Elena\OneDrive\Documents\LINQPad Queries\point_unsafe.linq = C:\Users\Elena\OneDrive\Documents\LINQPad Queries\point_unsafe.linq
+		C:\Users\Elena\OneDrive\Documents\LINQPad Queries\ref_person.linq = C:\Users\Elena\OneDrive\Documents\LINQPad Queries\ref_person.linq
+		C:\Users\Elena\OneDrive\Documents\LINQPad Queries\ref_swap.linq = C:\Users\Elena\OneDrive\Documents\LINQPad Queries\ref_swap.linq
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PointerDate", "PointerDate\PointerDate.csproj", "{9F8F56B9-500F-49CD-BF6B-F6F9842E761E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectivesForPreprocessor", "DirectivesForPreprocessor\DirectivesForPreprocessor.csproj", "{2083098C-C73E-43CD-AEE8-639D2A341418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "usingExcelWithoutInterop", "DynamicUsingExcel\usingExcelWithoutInterop.csproj", "{F170A3F5-DF53-4111-A105-D2ED295B9BB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingExternalLib", "UnsafeExternalLibrary\UsingExternalLib.csproj", "{6A6726B2-0714-47A9-B8DF-5B2AFB5D5C1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageProcessing", "UnsafeImageProcessing\ImageProcessing\ImageProcessing.csproj", "{A5FBA6DB-F01C-4D84-B4F9-06A4C213C493}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AF2BFBF-3369-42D5-A514-4564DDCCF36C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF2BFBF-3369-42D5-A514-4564DDCCF36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF2BFBF-3369-42D5-A514-4564DDCCF36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF2BFBF-3369-42D5-A514-4564DDCCF36C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F8F56B9-500F-49CD-BF6B-F6F9842E761E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8F56B9-500F-49CD-BF6B-F6F9842E761E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8F56B9-500F-49CD-BF6B-F6F9842E761E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8F56B9-500F-49CD-BF6B-F6F9842E761E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2083098C-C73E-43CD-AEE8-639D2A341418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2083098C-C73E-43CD-AEE8-639D2A341418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2083098C-C73E-43CD-AEE8-639D2A341418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2083098C-C73E-43CD-AEE8-639D2A341418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F170A3F5-DF53-4111-A105-D2ED295B9BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F170A3F5-DF53-4111-A105-D2ED295B9BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F170A3F5-DF53-4111-A105-D2ED295B9BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F170A3F5-DF53-4111-A105-D2ED295B9BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A6726B2-0714-47A9-B8DF-5B2AFB5D5C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A6726B2-0714-47A9-B8DF-5B2AFB5D5C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A6726B2-0714-47A9-B8DF-5B2AFB5D5C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A6726B2-0714-47A9-B8DF-5B2AFB5D5C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5FBA6DB-F01C-4D84-B4F9-06A4C213C493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5FBA6DB-F01C-4D84-B4F9-06A4C213C493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5FBA6DB-F01C-4D84-B4F9-06A4C213C493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5FBA6DB-F01C-4D84-B4F9-06A4C213C493}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C9EE8D2-B502-4135-BB56-1FE31860D62F}
+	EndGlobalSection
+EndGlobal
